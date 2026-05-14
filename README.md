@@ -6,6 +6,7 @@ A production-grade ETL (Extract, Transform, Load) pipeline for processing employ
 
 ## 📁 Project Structure
 
+```
 mental_health_etl/
 ├── data/
 │   ├── source/           # Original source CSV files
@@ -19,6 +20,7 @@ mental_health_etl/
 ├── transform_mental_health_data.py
 ├── load_to_mysql.py
 └── mental_health_etl_pipeline_dag.py
+```
 
 ---
 
